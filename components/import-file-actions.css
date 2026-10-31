@@ -1,0 +1,8 @@
+.upload-file-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; flex-shrink: 0; }
+.upload-file-actions .button { white-space: nowrap; }
+.upload-file-help { color: #75857d; font-size: 12px; line-height: 1.8; margin: -12px 2px 23px; }
+@media (max-width: 760px) {
+  .upload-zone .upload-file-actions { width: 100%; }
+  .upload-file-actions .button { flex: 1 1 140px; }
+  .upload-file-help { font-size: 11px; }
+}

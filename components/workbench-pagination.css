@@ -1,0 +1,22 @@
+.wb-pagination{display:flex;flex-direction:column;gap:14px;min-width:0;padding:16px 20px;border-top:1px solid #eaf0ed;color:#81988c;background:#fff;font-size:11px;line-height:1.6}
+.wb-pagination-top{display:flex;justify-content:space-between;align-items:center;gap:10px 18px;flex-wrap:wrap;min-width:0}
+.wb-pagination-summary{overflow-wrap:anywhere}
+.wb-pagination-shortcuts{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex-wrap:wrap;min-width:0}
+.wb-pagination-position{white-space:nowrap;padding:0 2px;color:#8a9c92;font-size:11px}
+.wb-pagination-position strong{font-weight:600;color:#527a63}
+.wb-pagination button{display:inline-flex;align-items:center;justify-content:center;min-height:32px;border:1px solid #e2ebe5;border-radius:5px;background:#fff;color:#789282;font-size:11px;line-height:1.2;cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+.wb-pagination button:hover:not(:disabled){background:#f1f7f3;border-color:#b4d2bf;color:#377a67}
+.wb-pagination button:focus-visible{outline:2px solid #69a78b;outline-offset:3px}
+.wb-pagination button:disabled{cursor:not-allowed;opacity:.4}
+.wb-pagination-edge{padding:7px 10px;white-space:nowrap}
+.wb-pagination-arrow{width:32px;flex-shrink:0;padding:0}
+.wb-pagination-group{display:grid;grid-template-columns:100px minmax(0,1fr) 100px;align-items:center;gap:12px;min-width:0}
+.wb-pagination .wb-pagination-group-button{gap:6px;padding:7px 9px;min-width:0;min-height:42px}
+.wb-pagination-group-button>span{display:flex;flex-direction:column;gap:4px;min-width:0;white-space:nowrap}
+.wb-pagination-group-button small{display:block;font-size:10px;font-weight:400;color:#9aaa9f}
+.wb-pagination-group-button>svg{flex-shrink:0}
+.wb-pagination-numbers{display:flex;justify-content:center;align-items:center;gap:5px;flex-wrap:wrap;min-width:0}
+.wb-pagination-number{min-width:32px;min-height:32px;padding:7px 6px;font-variant-numeric:tabular-nums}
+.wb-pagination-number.active,.wb-pagination-number.active:hover:not(:disabled){background:#397b66;border-color:#397b66;color:#fff;font-weight:600;box-shadow:0 2px 5px #397b6617}
+@media(max-width:760px){.wb-pagination{padding:15px 16px;gap:13px}.wb-pagination-top{align-items:flex-start}.wb-pagination-shortcuts{justify-content:flex-start}.wb-pagination button{min-height:36px;font-size:12px}.wb-pagination-arrow{width:36px}.wb-pagination-position{font-size:11px}.wb-pagination-group{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}.wb-pagination-numbers{grid-column:1/-1;grid-row:1;justify-content:flex-start;gap:5px}.wb-pagination-number{min-width:36px;padding:8px 7px}.wb-pagination-group-button.previous{grid-column:1;grid-row:2}.wb-pagination-group-button.next{grid-column:2;grid-row:2}.wb-pagination-group-button>span{flex-direction:row;align-items:center;gap:7px}.wb-pagination-group-button small{font-size:10px}.wb-pagination .wb-pagination-group-button{min-height:38px}}
+@media(max-width:360px){.wb-pagination{padding:14px 12px}.wb-pagination-shortcuts{gap:5px}.wb-pagination-edge{padding:7px 8px}.wb-pagination-group-button>span{flex-direction:column;gap:4px}.wb-pagination .wb-pagination-group-button{min-height:46px}}

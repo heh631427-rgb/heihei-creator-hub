@@ -1,0 +1,63 @@
+.workbench-guide{color:#526d62;font-size:13px;line-height:1.85}
+.workbench-guide .wg-intro{padding:0 0 22px}
+.workbench-guide .wg-eyebrow{display:block;color:#87a294;font-size:9px;letter-spacing:1.7px;margin-bottom:9px}
+.workbench-guide .wg-intro h2{color:#315b49;font-size:23px;font-weight:600;letter-spacing:.3px;line-height:1.5;margin:0 0 8px}
+.workbench-guide .wg-intro p{font-size:12px;color:#7d9388;margin:0;max-width:700px}
+.workbench-guide .wg-nav{display:flex;flex-wrap:wrap;gap:7px;padding:0 0 20px;border-bottom:1px solid #e5eee8;margin-bottom:23px}
+.workbench-guide .wg-nav button{padding:9px 15px;min-height:38px;border:1px solid #e3ece6;border-radius:7px;background:#fff;color:#799284;font-size:12px;font-weight:500;cursor:pointer;line-height:1.5;transition:background .15s,color .15s}
+.workbench-guide .wg-nav button:hover{background:#f1f7f3;color:#46725a}
+.workbench-guide .wg-nav button.active{color:#347354;background:#eaf4ed;border-color:#cadfce}
+.workbench-guide .wg-nav button:focus-visible,.workbench-guide .wg-faq summary:focus-visible{outline:2px solid #78ad8e;outline-offset:3px}
+.workbench-guide .wg-content{display:flex;flex-direction:column;gap:22px}
+.workbench-guide .wg-card h3,.workbench-guide .wg-formula-card h3{color:#3b624f;font-size:14px;font-weight:600;line-height:1.5;margin:0 0 12px}
+.workbench-guide p{margin:0 0 11px;overflow-wrap:anywhere}
+.workbench-guide p:last-child{margin-bottom:0}
+.workbench-guide strong{font-weight:600}
+.workbench-guide .wg-callout{border:1px solid #dfebe2;border-radius:9px;background:#f2f8f3;padding:16px 18px;color:#688574}
+.workbench-guide .wg-callout>strong{display:block;color:#477458;font-size:12px;margin-bottom:6px}
+.workbench-guide .wg-callout p{font-size:11px;line-height:1.9}
+.workbench-guide .wg-table-wrap{border:1px solid #e3ece6;border-radius:8px;overflow-x:auto;background:white}
+.workbench-guide .wg-table{width:100%;border-collapse:collapse;table-layout:fixed;color:#5f796b;font-size:12px;line-height:1.85}
+.workbench-guide .wg-table th,.workbench-guide .wg-table td{padding:13px 15px;text-align:left;vertical-align:top;border-bottom:1px solid #e9efeb;overflow-wrap:anywhere}
+.workbench-guide .wg-table thead th{background:#f5f8f5;color:#6c8978;font-size:10px;font-weight:500;padding-top:10px;padding-bottom:10px}
+.workbench-guide .wg-table thead th:first-child{width:128px}
+.workbench-guide .wg-table tbody th{color:#4e735c;font-size:11px;font-weight:600;background:#fbfcfb}
+.workbench-guide .wg-table tbody tr:last-child>*{border-bottom:0}
+.workbench-guide .wg-table .wg-table-note{font-size:11px;color:#728979;margin:6px 0 0;line-height:1.8}
+.workbench-guide .wg-footnote{color:#758a7b;font-size:11px;line-height:1.9;margin-top:11px}
+.workbench-guide .wg-note{margin-top:14px;padding-left:12px;border-left:3px solid #e0ece3}
+.workbench-guide .wg-note>strong{display:block;color:#66836f;font-size:11px;margin-bottom:5px}
+.workbench-guide .wg-note p{font-size:11px;color:#819487}
+.workbench-guide .wg-formula-card{padding:20px;border:1px solid #e1ebe4;border-radius:10px;background:#fff}
+.workbench-guide .wg-formula{padding:13px 15px;margin:12px 0;background:#eef5f0;border:1px solid #dfebe1;border-radius:7px;color:#3f7255;font-size:12px;font-weight:500;line-height:1.9;overflow-wrap:anywhere}
+.workbench-guide .wg-example{padding:14px 16px;margin:14px 0;border-radius:7px;background:#f5f8fa;border:1px solid #e7edf1}
+.workbench-guide .wg-example>span{display:block;color:#8b9faa;font-size:9px;letter-spacing:1px;margin-bottom:5px}
+.workbench-guide .wg-example>strong{display:block;color:#567786;font-size:12px;line-height:1.8}
+.workbench-guide .wg-example p{font-size:11px;color:#8399a3;margin-top:7px}
+.workbench-guide .wg-list{padding-left:19px;margin:14px 0;display:flex;flex-direction:column;gap:9px;font-size:11px;line-height:1.9}
+.workbench-guide .wg-list li::marker{color:#88a592}
+.workbench-guide .wg-rule-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.workbench-guide .wg-rule-grid>div{padding:14px 15px;border:1px solid #e2ece5;border-radius:7px;background:#f8fbf8}
+.workbench-guide .wg-rule-grid span{display:block;font-size:10px;color:#85998b;margin-bottom:6px}
+.workbench-guide .wg-rule-grid strong{display:block;font-size:12px;color:#50795e}
+.workbench-guide .wg-loading-note{color:#9a8664;font-size:11px;background:#faf7ee;padding:10px 12px;border-radius:5px;margin-bottom:12px}
+.workbench-guide .wg-grade-table{table-layout:auto;min-width:430px}
+.workbench-guide .wg-grade-table thead th:first-child{width:55px}
+.workbench-guide .wg-grade-table td{white-space:nowrap}
+.workbench-guide .wg-steps{display:flex;flex-direction:column;gap:19px;list-style:none;margin:0;padding:0}
+.workbench-guide .wg-steps li{display:flex;align-items:flex-start;gap:14px}
+.workbench-guide .wg-steps li>span{width:28px;height:28px;flex-shrink:0;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#edf5ef;color:#75a082;font-size:11px}
+.workbench-guide .wg-steps h4{font-size:12px;color:#4d735b;font-weight:600;margin:2px 0 6px;line-height:1.7}
+.workbench-guide .wg-steps p{font-size:11px;color:#819489;line-height:1.9}
+.workbench-guide .wg-faq{display:flex;flex-direction:column;gap:10px}
+.workbench-guide .wg-faq details{border:1px solid #e3ece6;border-radius:8px;background:#fff}
+.workbench-guide .wg-faq summary{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 17px;list-style:none;cursor:pointer;font-size:12px;font-weight:500;color:#53765f;line-height:1.7;border-radius:8px}
+.workbench-guide .wg-faq summary::-webkit-details-marker{display:none}
+.workbench-guide .wg-faq summary>svg{flex-shrink:0;color:#91a698;transition:transform .15s}
+.workbench-guide .wg-faq details[open] summary>svg{transform:rotate(180deg)}
+.workbench-guide .wg-faq details[open] summary{background:#f7faf7}
+.workbench-guide .wg-faq details>p{padding:0 17px 17px;font-size:11px;color:#82968a;line-height:1.95}
+.workbench-guide .wg-faq details[open]>p{padding-top:12px}
+.workbench-guide .wg-footer{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:24px;padding-top:17px;border-top:1px solid #e7eee9;color:#90a194;font-size:10px}
+.workbench-guide .wg-footer>svg{flex-shrink:0}
+@media(max-width:760px){.workbench-guide .wg-intro h2{font-size:20px}.workbench-guide .wg-intro p{font-size:11px}.workbench-guide .wg-nav{gap:6px}.workbench-guide .wg-nav button{font-size:11px;padding:8px 11px;min-height:36px}.workbench-guide .wg-table thead th:first-child{width:92px}.workbench-guide .wg-table th,.workbench-guide .wg-table td{padding:11px 10px}.workbench-guide .wg-table tbody th{font-size:10px}.workbench-guide .wg-callout{padding:14px}.workbench-guide .wg-formula-card{padding:16px 14px}.workbench-guide .wg-formula{font-size:11px;padding:12px}.workbench-guide .wg-rule-grid{grid-template-columns:1fr}.workbench-guide .wg-grade-table thead th:first-child{width:45px}.workbench-guide .wg-steps{gap:17px}.workbench-guide .wg-steps li{gap:10px}.workbench-guide .wg-faq summary{padding:13px 14px;font-size:11px}.workbench-guide .wg-faq details>p{padding-left:14px;padding-right:14px}.workbench-guide .wg-example{padding:12px}.workbench-guide .wg-example>strong{font-size:11px}}
